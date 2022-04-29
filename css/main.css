@@ -1,4 +1,7 @@
 @charset "UTF-8";
+.MasInfo {
+  text-decoration: none; }
+
 header {
   display: grid;
   background-color: #C1A081;
@@ -672,3 +675,11 @@ main .DivBotones {
 .NombreContacto {
   justify-content: center;
   align-items: center; }
+
+.PrimerMasInfo {
+  color: #000000;
+  background-color: #76323F; }
+
+.PrimerMasInfo {
+  margin-left: 16.25rem;
+  margin-top: 0.8rem; }

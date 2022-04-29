@@ -1,4 +1,7 @@
 @import "utilidades/variables";
+@import "utilidades/maps";
+@import "utilidades/mixin";
+@import "utilidades/extend";
 
 header {
     display: grid;
@@ -964,4 +967,17 @@ main{
     justify-content: center;
     align-items: center;
     
+}
+
+.PrimerMasInfo{
+    color: map-get($map: $MasInfo, $key: color-masinfo);
+    background-color: map-get($map: $MasInfo, $key: background-color )
+}
+
+.PrimerMasInfo{
+    @include margenes (16.25rem, 0.8rem)
+}
+
+.MasInfo{
+    @extend %text-decoration;
 }

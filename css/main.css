@@ -475,6 +475,17 @@ main .DivBotones {
     font-size: large;
     padding: 10px; }
 
+    body {
+      width: 100vw;
+      overflow-x: hidden;
+      position: relative;
+      min-height: 100vh;
+    }
+
+    footer{
+     
+      bottom: 0;
+    }
 @media only screen and (min-width: 600px) {
   header {
     display: grid;
@@ -683,3 +694,15 @@ main .DivBotones {
 .PrimerMasInfo {
   margin-left: 16.25rem;
   margin-top: 0.8rem; }
+
+body {
+  width: 100vw;
+  overflow-x: hidden;
+  position: relative;
+  min-height: 100vh;
+}
+
+footer{
+
+  bottom: 0;
+}

@@ -1,7 +1,7 @@
 {
   "name": "hospitalconin---francisco-alvarez",
   "version": "1.0.0",
-  "description": "",
+  "description": "Esta es la pagina sobre el nuevo Centro de Recupeeracion Nutricional de la Fundación Conin en Mendoza Argentina",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

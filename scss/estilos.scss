@@ -89,7 +89,6 @@ header nav img {
     
 }
 
-
 .ImagenHome{
     width: 1rem;
 }
@@ -115,9 +114,7 @@ main{
     margin-left: 1.8rem;
 }
 
-.TituloIndex{
-    font-size: larger;
-}
+
 
 .SubtituloIndex{
     font-size: small;
@@ -175,7 +172,7 @@ hr{
 }
 
 .SubtituloPresentacionIndex{
-    font-size: small;
+    font-size: large;
 }
 
 .InfoNuevo{
@@ -642,14 +639,13 @@ main{
 }
 
 @media only screen and (min-width: 600px){
+
+
     header {
         display: grid;
         background-color: #C1A081;
-        
         top: 0;
-        
     }
-    
     
     *{
         font-family: 'Montserrat', sans-serif;
@@ -666,8 +662,9 @@ main{
     }
     
     .ImagenPrincipal{
-        width: 56.3rem;
-    
+        width: 50.3rem;
+        display: flex;
+        margin-right: 4rem;
     }
     
     
@@ -759,7 +756,11 @@ main{
     
         
     }
-    
+
+    .SubtituloIndex{
+        font-size: large;
+    }
+
     main{
         margin-top: 3.12rem;
         margin-left: 1.8rem;
@@ -887,6 +888,10 @@ main{
         padding: 0.4rem;
         border-radius: 0.6rem;
     }
+
+    .SubtituloConocenosIndex{
+        font-size: large;
+    }
     
     /* Separacion Tercer Articulo Donaciones */
     
@@ -931,6 +936,9 @@ main{
         
     }
     
+    .SubtituloDonacionesIndex{
+        font-size: large;
+    }
     
     /* FOOTER */
     
@@ -980,9 +988,4 @@ main{
 
 .MasInfo{
     @extend %text-decoration;
-}
-
-body{
-    width: 100vw;
-    overflow: hidden;
 }

@@ -320,12 +320,41 @@ footer {
   margin-top: 12.5rem; }
 
 /* SEPARACIÓN PRESENTACIÓN */
+
+.MainPresentacion{
+  margin-right: 2rem;
+}
+
 .tituloPresentacion {
   font-size: xx-large; }
 
-.parrafoDos {
-  margin-top: 20px; }
+.parrafoDos{
+  text-align: center;
+  margin-top: 2rem; }
 
+  .ImagenHospital1{
+    padding-bottom: 0;
+    width: 80%;
+  }
+
+  .ImagenHospital2{
+    padding-bottom: 0;
+    width: 80%;
+  }
+
+  .EpigrafePresentacion1{
+    padding: 1rem;
+    padding-top: 0;
+  }
+
+  .EpigrafePresentacion2{
+    padding: 1rem;
+    padding-top: 0;
+  }
+
+  hr{
+    margin-top: 5rem;
+  }
 .MainPresentacion h2 {
   margin-top: 30px;
   color: #565656; }
